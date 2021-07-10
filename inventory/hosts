@@ -55,6 +55,9 @@ docker_wordpress_mysql_1
 docker_wordpress_mysql_alex_1
 docker_wordpress_mysql_marc_1
 
+[docker:vars]
+ansible_ssh_common_args='-F /Users/marcpartensky/.ssh/config'
+
 [memorix-group]
 airflow
 naturair
