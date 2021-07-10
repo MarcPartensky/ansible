@@ -1,4 +1,4 @@
-- hosts: "gigabix"
+- hosts: "gigabix-group"
   become: yes
   tasks:
     - name: apt
